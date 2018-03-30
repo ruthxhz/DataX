@@ -23,6 +23,7 @@ MongoDBReader通过Datax框架从MongoDB并行的读取数据，通过主控的J
 	                    "name": "mongodbreader",
 	                    "parameter": {
 	                        "address": ["127.0.0.1:27017"],
+				"authSource": "",
 	                        "userName": "",
 	                        "userPassword": "",
 	                        "dbName": "tag_per_data",
